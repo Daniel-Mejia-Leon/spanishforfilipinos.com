@@ -7,10 +7,11 @@
 }
 
 .navLink{
+    font-size: 200%;
+    padding: 1%;
     color: white;
     text-decoration: none;
 }
-
 .videoDivParent{
     /* text-align: center; */
     display: flex;

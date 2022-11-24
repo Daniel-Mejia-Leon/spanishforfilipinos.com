@@ -7,6 +7,8 @@
 }
 
 .navLink{
+    font-size: 200%;
+    padding: 1%;
     color: white;
     text-decoration: none;
 }
@@ -20,6 +22,8 @@
 
 .centerDiv{
     flex-basis: 33%;
+    background-color: rgb(85, 85, 85);
+
 }
 
 .sideDiv{
@@ -28,10 +32,47 @@
     flex-basis: 33%;
 }
 
+.teacherPicAndName{
+    display: flex;
+    padding: 10px;
+}
+/* PROFESSOR SIDE */
+.profPic{
+    flex-basis: 15%;
+}.profPic img{width: 100%;}
+
+.profName{
+    flex-basis: 85%;
+    text-align: center;
+    margin: auto;
+    /* background-color: aquamarine; */
+
+}
+
 .videotest{
     /* padding: 10px; */
     border-radius: 10px;
     
     width: 100%;
 }
+
+.videoParagraph{
+    text-align: center;
+    padding: 15px;
+}
+
+.miniParentDiv{
+    display: flex;
+}
+
+.miniDivSideVideo{
+    flex-basis: 15%;
+    /* background-color: rgb(70, 55, 55); */
+}
+
+.miniDivCenterVideo{
+    
+    /* background-color: black; */
+}
+
 /* PROFESSOR SIDE */
