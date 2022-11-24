@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+}
+
+.navbarDiv{
+    background-color: black;
+}
+
+.navLink{
+    font-size: 200%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}

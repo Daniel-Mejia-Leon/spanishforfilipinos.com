@@ -23,13 +23,16 @@
 .centerDiv{
     flex-basis: 33%;
     background-color: rgb(85, 85, 85);
-
+    margin: 1%;
+    border-radius: 3%;    
 }
 
 .sideDiv{
     /* display: flex; */
     background-color: rgb(136, 136, 136);
     flex-basis: 33%;
+    margin: 1%;
+    border-radius: 3%;
 }
 
 .teacherPicAndName{
@@ -38,11 +41,11 @@
 }
 /* PROFESSOR SIDE */
 .profPic{
-    flex-basis: 15%;
-}.profPic img{width: 100%;}
+    /* flex-basis: 15%; */
+}.profPic img{width: 10%;}
 
 .profName{
-    flex-basis: 85%;
+    /* flex-basis: 85%; */
     text-align: center;
     margin: auto;
     /* background-color: aquamarine; */
