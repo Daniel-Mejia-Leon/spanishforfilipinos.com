@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+}
+
+.navbarDiv{
+    background-color: black;
+}
+
+.navLink{
+    color: white;
+    text-decoration: none;
+}
+

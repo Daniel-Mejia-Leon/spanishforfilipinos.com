@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+}
+
+.navbarDiv{
+    background-color: black;
+}
+
+.navLink{
+    color: white;
+    text-decoration: none;
+}
+
+.videoDivParent{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.videoDivCenter{
+    flex-basis: 70%;
+}
+
+.videoDivSide{
+    /* display: flex; */
+    background-color: rgb(136, 136, 136);
+    flex-basis: 30%;
+}
+
+.videoDivSideSubDiv{
+    display: flex;
+}
+
+/* PROFESSOR SIDE */
+.profPic{
+    flex-basis: 30%;
+}
+
+.profPic img{
+    width: 100%;
+}
+
+.profName{
+    margin: auto;
+    flex-basis: 70%;
+    background-color: aquamarine;
+
+}
+
+.videotest{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.black_bar{
+    height: 30px;
+    background-color: black;
+}
