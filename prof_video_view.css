@@ -23,6 +23,10 @@
     flex-basis: 70%;
 }
 
+.videoTitle{
+    text-align: center;
+}
+
 .videoDivSide{
     /* display: flex; */
     background-color: rgb(136, 136, 136);
