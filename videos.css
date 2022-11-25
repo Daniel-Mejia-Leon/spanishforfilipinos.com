@@ -2,16 +2,22 @@
     margin: 0%;
 }
 
-.navbarDiv{
-    background-color: black;
+.menu{
+    /* text-align:center; */
+    background-color: #705d5d;
+    margin-bottom: 1%;
+
 }
 
-.navLink{
-    font-size: 200%;
-    padding: 1%;
-    color: white;
+.menu  a{
+    /* background-color: rgb(0, 0, 0); */
+    font-size: 30px;
     text-decoration: none;
-}
+    /* background-color: aqua; */
+    color: rgb(0, 0, 0);
+    /* padding: 5px; */
+    margin: 0.5%;
+    }
 
 .parentDiv{
     /* text-align: center; */
@@ -44,11 +50,11 @@
     /* flex-basis: 15%; */
 }.profPic img{width: 10%;}
 
-.profName{
+.videoTitle{
     /* flex-basis: 85%; */
     text-align: center;
-    margin: auto;
-    /* background-color: aquamarine; */
+    margin: auto;    
+/* background-color: aquamarine; */
 
 }
 
@@ -79,24 +85,64 @@
 }
 
 @media (max-width: 1000px){
+    .menu{
+        text-align:center;
+        background-color: #705d5d;
+    
+    }
+    
+    .menu  a{
+        font-size: 40px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin: 1%;
+    }
+    
     .parentDiv{
         /* text-align: center; */
         display: flex;
         flex-direction: column;
         
     }
+    .centerDiv{
+        flex-basis: 33%;
+        background-color: rgb(85, 85, 85);
+        margin: 0.5%;
+        border-radius: 25px;    
+    }
+    
+    .sideDiv{
+        /* display: flex; */
+        background-color: rgb(136, 136, 136);
+        flex-basis: 33%;
+        margin: 0.5%;
+        border-radius: 25px;
+    }
     .miniDivSideVideo{
         flex-basis: 15%;
-        background-color: rgb(70, 55, 55);
+        /* background-color: rgb(70, 55, 55); */
     }
     .miniDivCenterVideo{
-
+        flex-basis: 70%;
     }
+
+    .videoTitle{
+        text-align: center;
+        margin: auto;    
+        font-size: 45px;
+    }
+
     .videotest{
         /* padding: 10px; */
         border-radius: 10px;
         
         width: 100%;
+    }
+
+    .videoParagraph{
+        text-align: center;
+        padding: 15px;
+        font-size: 28px;
     }
     
 }
