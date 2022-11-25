@@ -23,7 +23,7 @@
 .centerDiv{
     flex-basis: 33%;
     background-color: rgb(85, 85, 85);
-    margin: 1%;
+    margin: 0.5%;
     border-radius: 3%;    
 }
 
@@ -31,7 +31,7 @@
     /* display: flex; */
     background-color: rgb(136, 136, 136);
     flex-basis: 33%;
-    margin: 1%;
+    margin: 0.5%;
     border-radius: 3%;
 }
 
@@ -78,4 +78,26 @@
     /* background-color: black; */
 }
 
-/* PROFESSOR SIDE */
+@media (max-width: 1000px){
+    .parentDiv{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .miniDivSideVideo{
+        flex-basis: 15%;
+        background-color: rgb(70, 55, 55);
+    }
+    .miniDivCenterVideo{
+
+    }
+    .videotest{
+        /* padding: 10px; */
+        border-radius: 10px;
+        
+        width: 100%;
+    }
+    
+}
+
