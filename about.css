@@ -12,3 +12,31 @@
     color: white;
     text-decoration: none;
 }
+
+.imgAndPharDiv {
+background-color: rgb(163, 82, 82);
+}
+
+.imgDiv{
+    text-align: center;
+}
+
+.imgAndPharDiv img{
+    width: 20%;
+}
+
+@media (max-width: 1000px){
+    .imgAndPharDiv img{
+        width: 50%;
+    }
+
+    .textDiv{
+        font-size: 290%;
+        text-align: center;
+    }
+
+    /* .textDiv h1{
+        text-align: center;
+    } */
+
+}
