@@ -1,7 +1,6 @@
 *{
     margin: 0%;
 }
-
 .menu{
     /* text-align:center; */
     background-color: #705d5d;
@@ -18,6 +17,7 @@
     /* padding: 5px; */
     margin: 0.5%;
     }
+
 
 .parentDiv{
     /* text-align: center; */
@@ -53,6 +53,7 @@
 .videoTitle{
     /* flex-basis: 85%; */
     text-align: center;
+    font-size: 170%;
     margin: auto;    
 /* background-color: aquamarine; */
 
@@ -92,7 +93,7 @@
     }
     
     .menu  a{
-        font-size: 40px;
+        font-size: 290%;
         text-decoration: none;
         color: rgb(0, 0, 0);
         margin: 1%;

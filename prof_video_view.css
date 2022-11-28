@@ -62,3 +62,50 @@
     height: 30px;
     background-color: black;
 }
+
+@media (max-width: 1000px){
+    .videoDivParent{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .videoDivSide{
+        /* display: flex; */
+        text-align: center;
+        background-color: rgb(136, 136, 136);
+        flex-basis: 30%;
+    }
+    .videoDivSide p{
+        display: none;
+    }
+    .videoDivSideSubDiv{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .profPic{
+        flex-basis: 0%;
+
+    }
+    .profPic img{
+        width: 0%;
+    }
+    .profName{
+        text-decoration: none;
+        font-size: 180%;
+        flex-basis: 100%;
+        background-color: rgb(75, 117, 103);
+    
+    }
+    .videoTitle{
+        text-align: center;
+        font-size: 400%;
+    }
+    .videoParagraph{
+        text-align: center;
+        font-size: 190%;
+    }
+
+
+}
