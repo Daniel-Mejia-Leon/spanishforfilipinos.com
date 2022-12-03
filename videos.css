@@ -1,21 +1,37 @@
-*{
+.body{
     margin: 0%;
+    background-color: rgb(0, 0, 0);
 }
 .menu{
     /* text-align:center; */
-    background-color: #705d5d;
-    margin-bottom: 1%;
-
+    display: flex;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
-.menu  a{
+.linkhome{
+    flex-basis: 50%;
     /* background-color: rgb(0, 0, 0); */
-    font-size: 30px;
+    font-size: 240%;
     text-decoration: none;
     /* background-color: aqua; */
-    color: rgb(0, 0, 0);
+    color: rgb(247, 247, 247);
     /* padding: 5px; */
     margin: 0.5%;
+    }
+
+.linkscontainer{
+    flex-basis: 50%;
+    margin: auto;
+    text-align: end;
+    padding: 0% 2% 0% 0%;
+}
+
+.link{
+    font-size: 135%;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    padding: 0% 1% 0% 0%;    margin: 0.5%;
     }
 
 
@@ -23,82 +39,60 @@
     /* text-align: center; */
     display: flex;
     flex-direction: row;
+    margin-bottom: 2%;
     
 }
 
 .centerDiv{
     flex-basis: 33%;
-    background-color: rgb(85, 85, 85);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(158, 158, 158), rgb(54, 54, 54));
     margin: 0.5%;
-    border-radius: 3%;    
+    border-radius: 1%;    
 }
 
 .sideDiv{
     /* display: flex; */
-    background-color: rgb(136, 136, 136);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(158, 158, 158), rgb(54, 54, 54));
     flex-basis: 33%;
     margin: 0.5%;
-    border-radius: 3%;
+    border-radius: 1%;
 }
 
 .teacherPicAndName{
     display: flex;
     padding: 10px;
 }
-/* PROFESSOR SIDE */
-.profPic{
-    /* flex-basis: 15%; */
-}.profPic img{width: 10%;}
 
 .videoTitle{
-    /* flex-basis: 85%; */
+    color: rgb(230, 230, 230);
     text-align: center;
     font-size: 170%;
-    margin: auto;    
-/* background-color: aquamarine; */
-
+    padding: 1.5% 0% 2% 0%;
 }
-
-.videotest{
-    /* padding: 10px; */
+.videoDiv{
+    padding: 0% 5%;
+}.videoimage{
+    transition: 0.7s;
     border-radius: 10px;
-    
     width: 100%;
+}.videoImage:hover{
+    transition: 0.7s;
+    transform: scale(1.05);
 }
-
+.byprofessor{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+}
 .videoParagraph{
     text-align: center;
-    padding: 15px;
+    margin-top: 0%;
+    padding: 0px 15px 15px 15px;
 }
 
-.miniParentDiv{
-    display: flex;
-}
 
-.miniDivSideVideo{
-    flex-basis: 15%;
-    /* background-color: rgb(70, 55, 55); */
-}
-
-.miniDivCenterVideo{
-    
-    /* background-color: black; */
-}
 
 @media (max-width: 1000px){
-    .menu{
-        text-align:center;
-        background-color: #705d5d;
-    
-    }
-    
-    .menu  a{
-        font-size: 290%;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        margin: 1%;
-    }
-    
     .parentDiv{
         /* text-align: center; */
         display: flex;
@@ -108,23 +102,16 @@
     .centerDiv{
         flex-basis: 33%;
         background-color: rgb(85, 85, 85);
-        margin: 0.5%;
-        border-radius: 25px;    
+        margin: 1.5% 1.5% 4% 1.5%;
+        border-radius: 10px;    
     }
     
     .sideDiv{
         /* display: flex; */
         background-color: rgb(136, 136, 136);
         flex-basis: 33%;
-        margin: 0.5%;
-        border-radius: 25px;
-    }
-    .miniDivSideVideo{
-        flex-basis: 15%;
-        /* background-color: rgb(70, 55, 55); */
-    }
-    .miniDivCenterVideo{
-        flex-basis: 70%;
+        margin: 1.5% 1.5% 4% 1.5%;
+        border-radius: 10px;
     }
 
     .videoTitle{
@@ -132,19 +119,35 @@
         margin: auto;    
         font-size: 45px;
     }
-
+    .videoImage:hover{
+        
+    }
     .videotest{
         /* padding: 10px; */
         border-radius: 10px;
         
         width: 100%;
     }
-
     .videoParagraph{
         text-align: center;
         padding: 15px;
         font-size: 28px;
     }
-    
+    .linkhome{
+        display: none;
+    }
+    .linkscontainer{
+        flex-basis: 100%;
+        margin: 2.5% 0% 2.5% 0%;
+        text-align: center;
+    }
+    .link{
+        font-size: 270%;
+        text-decoration: none;
+        color: rgb(247, 247, 247);
+        padding: 1% 1% 1% 1%;    
+        /* margin: 1% 0% 1% 0%; */
+    }
+
 }
 
