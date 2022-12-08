@@ -1,14 +1,183 @@
 *{
+    font-family: 'Ubuntu';
+}
+.body{
     margin: 0%;
+    background-color: rgb(0, 0, 0);
+}
+.menu{
+    /* text-align:center; */
+    display: flex;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
-.navbarDiv{
-    background-color: black;
-}
-
-.navLink{
-    font-size: 200%;
-    padding: 1%;
-    color: white;
+.linkhome{
+    flex-basis: 50%;
+    /* background-color: rgb(0, 0, 0); */
+    font-size: 240%;
     text-decoration: none;
+    /* background-color: aqua; */
+    color: rgb(247, 247, 247);
+    /* padding: 5px; */
+    margin: 0.5%;
+    }
+
+.linkscontainer{
+    flex-basis: 50%;
+    margin: auto;
+    text-align: end;
+    padding: 0% 2% 0% 0%;
+}
+
+.link{
+    font-size: 135%;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    padding: 0% 1% 0% 0%;    margin: 0.5%;
+}
+
+.form{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
+    margin: auto auto auto auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+}.formTitle{
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+}.form_container{
+
+}.casillasDiv{
+    display: flex;
+    padding: 1% 0% 1% 0%;
+    border-radius: 15px;
+
+}.formIntro{
+    font-size: 200%;
+    margin: auto;
+    margin-bottom: 5%;
+    width: 75%;
+    color: white;
+}.field_title{
+    flex-basis: 30%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+
+}.form_field{
+
+    border-radius: 15px;
+    margin: auto;
+    width: 50%;
+    font-size: 140%;
+    text-align: center;
+}.form_field_date{
+    flex-basis: 50%;
+
+    border-radius: 15px;
+    margin: auto;
+    width: 50%;
+    font-size: 140%;
+    text-align: center;
+}.submit_button{
+    border-radius: 15px;
+    background-color: rgb(72, 107, 182);
+    width: 35%;
+    font-size: 215%;
+    margin: 6% 0% 0% 0%;
+}.forgot_pass_text{
+    padding: 0% 0% 4% 0%;
+    color: white;
+    font-size: 130%;
+
+}.forgot_pass_text br{
+    display: none;
+}.forgot_pass_text a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0% 0% 0% 1%;
+    font-weight: bold;
+
+}
+
+@media (max-width: 1000px){
+    .menu{
+        /* text-align:center; */
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));    margin-bottom: 1%;
+        margin-bottom: 7%;
+    }
+    .linkhome{
+        text-align: center;
+        margin-top: 2%;
+        font-size: 450%;
+    }
+    .linkscontainer{
+        flex-basis: 100%;
+        margin: 2.5% 0% 2.5% 0%;
+        text-align: center;
+    }
+    .link{
+        font-size: 270%;
+        text-decoration: none;
+        color: rgb(247, 247, 247);
+        padding: 1% 1% 1% 1%;    
+        /* margin: 1% 0% 1% 0%; */
+    }
+    .form{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
+        margin: auto;
+        width: 90%;
+        background-color: white;
+        text-align: center;
+        border-radius: 15px;
+        padding-bottom: 5%;
+    }.formTitle{
+        color: rgb(255, 255, 255);
+        font-size: 600%;
+    }.form_container{
+
+    }.casillasDiv{
+        display: flex;
+        flex-direction: column;
+        padding: 3% 0% 3% 0%;
+    }.formIntro{
+        font-size: 300%;
+        color: white;
+    }.field_title{
+        color: white;
+
+        font-size: 300%;
+    }.form_field{
+        border-radius: 15px;
+        margin-top: 3%;
+        width: 75%;
+        font-size: 400%;
+        text-align: center;
+    }.submit_button{
+        border-radius: 15px;
+        background-color: rgb(72, 107, 182);
+        margin-top: 7%;
+        width: 50%;
+        font-size: 525%;
+    }.forgot_pass_text{
+        padding: 0% 0% 0% 0%;
+        color: white;
+        font-size: 250%;
+    
+    }.forgot_pass_text br{
+        display: inline;
+    }.forgot_pass_text a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 0% 0% 0% 0%;
+        font-weight: bold;
+    
+    }
+
+
+
+
 }

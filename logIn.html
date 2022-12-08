@@ -4,37 +4,38 @@
         <!-- This will force the motherfking css to load -->
         <link rel="stylesheet" type="text/css" href="logIn.css" />
 
-        <title>default</title>
+        <title>Spanish for Filipinos</title>
     </head>
-    <body>
-        <!-- nav bar on top -->
-        <div class="navbarDiv">
-            <a class="navLink" href="index.html">Home</a>
-            <a class="navLink" href="videos.html">Videos</a>
-            <a class="navLink" href="about.html">About</a>
-            <a class="navLink" href="logIn.html">Sign in</a>
-            <a class="navLink" href="register.html">Register</a>
+    <body class="body">
+        <div class="menu">
+            <div class="linkhome" href="index.html">Spanish For Filipinos</div>
+            <div class="linkscontainer">
+                <a class="link" href="index.html">Home</a>
+                <a class="link" href="videos.html">Videos</a>
+                <a class="link" href="about.html">About</a>
+                <a class="link" href="logIn.html">Sign in</a>
+                <a class="link" href="register.html">Register</a>
+            </div>
         </div>
         <form class= "form">
-            <h2 class="formTitle">Form Title</h2>
-            <p class="formIntro">Form Intro</p>
+            <h2 class="formTitle">Sign in</h2>
+            <!-- <p class="formIntro">Form Intro</p> -->
             <div class="form_container">
-                <div class="introText">
-                    <div class="casillasDiv">
-                        <input type="text" placeholder="Username or Email address">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <label for="form_field" class="field_title">Username or Email address</label><br>
+                    <input class="form_field"  type="text" placeholder="" name="username_or_email_login_post">
+                    
                 </div>
-                <div class="introText">  
-                    <div class="casillasDiv">
-                        <input type="password" placeholder="Password">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <label for="form_field" class="field_title">Password</label><br>
+                    <input class="form_field" type="password" placeholder="" name="password_login_post">
+                    
                 </div>
-                <div >
-                    <input type="submit" id="button">
+                <div>
+                    <input type="submit" class="submit_button" value="Log in">
                 </div>
-                <p>Forgot your password? <a id="incio" href="">Click here</a></p>
+                <div>
+                    <p class="forgot_pass_text">Forgot your password?<br><a href="">Click here</a></p> 
                 </div>
             </div>
         </form>

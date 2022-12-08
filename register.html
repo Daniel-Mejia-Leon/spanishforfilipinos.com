@@ -4,61 +4,58 @@
         <!-- This will force the motherfking css to load -->
         <link rel="stylesheet" type="text/css" href="register.css" />
 
-        <title>default</title>
+        <title>Spanish for Filipinos</title>
     </head>
-    <body>
-        <!-- nav bar on top -->
-        <div class="navbarDiv">
-            <a class="navLink" href="index.html">Home</a>
-            <a class="navLink" href="videos.html">Videos</a>
-            <a class="navLink" href="about.html">About</a>
-            <a class="navLink" href="logIn.html">Sign in</a>
-            <a class="navLink" href="register.html">Register</a>
+    <body class="body">
+        <div class="menu">
+            <div class="linkhome" href="index.html">Spanish For Filipinos</div>
+            <div class="linkscontainer">
+                <a class="link" href="index.html">Home</a>
+                <a class="link" href="videos.html">Videos</a>
+                <a class="link" href="about.html">About</a>
+                <a class="link" href="logIn.html">Sign in</a>
+                <a class="link" href="register.html">Register</a>
+            </div>
         </div>
         <form class= "form">
-            <h2 class="formTitle">Form Title</h2>
-            <p class="formIntro">Form Intro</p>
+            <h2 class="formTitle">Register here!</h2>
+            <!-- <p class="formIntro">See here why would you want to set your real information</p> -->
             <div class="form_container">
-                <div class="introText">
-                    <div class="casillasDiv">
-                        <input type="text" placeholder="First Name">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <label for="form_field"  class="field_title">First name</label><br>
+                    <input class="form_field" name="regist_first_name_post" type="text" placeholder="" pattern="[A-Za-z]{,50}">
                 </div>
-                <div class="introText">
-                    <div class="casillasDiv">
-                        <input type="text" placeholder="Last Name">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <label for="form_field"  class="field_title">Last name</label><br>
+                    <input class="form_field" name="regist_last_name_post" type="text" placeholder="" pattern="[A-Za-z]{,50}">
                 </div>
-                <div class="introText">
-                    <div class="casillasDiv">
-                        <input type="text" placeholder="DOB">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <label for="form_field"  class="field_title">Email address</label><br>
+                    <input type="email" name="regist_email_address_post" class="form_field" placeholder="">
                 </div>
-                <div class="introText">
-                    <div class="casillasDiv">
-                        <input type="text" placeholder="Username">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <!-- <label for="birthday">Birthday:</label>
+                        <input type="date" name="regist_DOB_post"> -->
+                    <label for="form_field_date"  class="field_title">DOB</label><br>
+                    <input class="form_field_date" name="regist_DOB_post" type="date" placeholder="">
                 </div>
-                <div class="introText">  
-                    <div class="casillasDiv">
-                        <input type="password" placeholder="Set your password">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <label for="form_field"  class="field_title">Username</label><br>
+                    <input class="form_field" name="regist_username_post" type="text" placeholder="">
                 </div>
-                <div class="introText">  
-                    <div class="casillasDiv">
-                        <input type="password" placeholder="Confirm your password">
-                        <span class="form_line"></span>
-                    </div>
+                <div class="casillasDiv">
+                    <label for="form_field"  class="field_title">Password</label><br>
+                    <input class="form_field" name="regist_password_first_post" type="password" placeholder="">
                 </div>
-                <div >
-                    <input type="submit" id="button">
+                <div class="casillasDiv">
+                    <label for="form_field"  class="field_title">Confirm password</label><br>
+                    <input class="form_field" name="regist_password_second_post" type="password" placeholder="">
                 </div>
-                <p>Forgot your password? <a id="incio" href="">Click here</a></p>
+                <div>
+                    <input type="submit" class="submit_button" value="Register" name="submit_button_registration">
+                </div>
+                <div>
+                <!-- <p class="forgot_pass_text">Forgot your password?<br><a id="incio" href="">Click here</a></p> -->
                 </div>
             </div>
         </form>

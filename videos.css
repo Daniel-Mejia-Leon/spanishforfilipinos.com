@@ -1,3 +1,6 @@
+*{
+    font-family: 'Ubuntu';
+}
 .body{
     margin: 0%;
     background-color: rgb(0, 0, 0);
@@ -58,10 +61,10 @@
     border-radius: 1%;
 }
 
-.teacherPicAndName{
+/* .teacherPicAndName{
     display: flex;
     padding: 10px;
-}
+} */
 
 .videoTitle{
     color: rgb(230, 230, 230);
@@ -93,6 +96,30 @@
 
 
 @media (max-width: 1000px){
+    .menu{
+        /* text-align:center; */
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));    margin-bottom: 1%;
+        margin-bottom: 7%;
+    }
+    .linkhome{
+        text-align: center;
+        margin-top: 2%;
+        font-size: 450%;
+    }
+    .linkscontainer{
+        flex-basis: 100%;
+        margin: 2.5% 0% 2.5% 0%;
+        text-align: center;
+    }
+    .link{
+        font-size: 270%;
+        text-decoration: none;
+        color: rgb(247, 247, 247);
+        padding: 1% 1% 1% 1%;    
+        /* margin: 1% 0% 1% 0%; */
+    }
     .parentDiv{
         /* text-align: center; */
         display: flex;
@@ -127,27 +154,18 @@
         border-radius: 10px;
         
         width: 100%;
+    }.byprofessor{
+        margin-top: 3%;
+        margin-bottom: 2%;
+        font-size: 180%;
+        text-align: center;
     }
     .videoParagraph{
         text-align: center;
-        padding: 15px;
+        padding: 1.5%;
         font-size: 28px;
     }
-    .linkhome{
-        display: none;
-    }
-    .linkscontainer{
-        flex-basis: 100%;
-        margin: 2.5% 0% 2.5% 0%;
-        text-align: center;
-    }
-    .link{
-        font-size: 270%;
-        text-decoration: none;
-        color: rgb(247, 247, 247);
-        padding: 1% 1% 1% 1%;    
-        /* margin: 1% 0% 1% 0%; */
-    }
+    
 
 }
 
