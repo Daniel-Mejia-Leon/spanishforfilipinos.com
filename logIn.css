@@ -3,19 +3,19 @@
 }
 .body{
     margin: 0%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(95, 95, 95);
 }
 .menu{
     /* text-align:center; */
     display: flex;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));    margin-bottom: 1%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
 
 .linkhome{
     flex-basis: 50%;
     /* background-color: rgb(0, 0, 0); */
-    font-size: 240%;
+    font-size: 230%;
     text-decoration: none;
     /* background-color: aqua; */
     color: rgb(247, 247, 247);
@@ -31,12 +31,11 @@
 }
 
 .link{
-    font-size: 135%;
+    font-size: 125%;
     text-decoration: none;
     color: rgb(247, 247, 247);
     padding: 0% 1% 0% 0%;    margin: 0.5%;
 }
-
 .form{
     background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
     margin: auto auto auto auto;
@@ -70,14 +69,7 @@
     border-radius: 15px;
     margin: auto;
     width: 50%;
-    font-size: 140%;
-    text-align: center;
-}.form_field_date{
-    flex-basis: 50%;
-
-    border-radius: 15px;
-    margin: auto;
-    width: 50%;
+    padding: 0.5%;
     font-size: 140%;
     text-align: center;
 }.submit_button{
